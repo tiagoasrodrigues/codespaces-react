@@ -1,4 +1,5 @@
-import './styles.css'
+import { Button } from '../Components/Button'
+import './style.css'
 
 export function Home() {
   return (
@@ -8,6 +9,7 @@ export function Home() {
         <p>
           GitHub Codespaces <span className="heart">♥️</span> React
         </p>
+        <Button />
       </header>
     </div>
   )
